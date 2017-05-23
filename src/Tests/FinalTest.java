@@ -15,6 +15,7 @@ public class FinalTest {
 		driver = BrowserInit.OpenBrowser("chrome", "https://www.facebook.com");
 		FacebookLogin fbLog = new FacebookLogin(driver);
 		fbLog.EnterUserName("almnac@gmail.com");
+		driver.quit();
 	}
 
 }
