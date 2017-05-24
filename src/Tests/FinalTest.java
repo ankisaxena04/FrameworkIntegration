@@ -15,7 +15,7 @@ public class FinalTest {
 		driver = BrowserInit.OpenBrowser("chrome", "https://www.facebook.com");
 		FacebookLogin fbLog = new FacebookLogin(driver);
 		fbLog.EnterUserName("almnac@gmail.com");
-		System.out.println("Closing driver");
+		System.out.println("Closing the browser");
 		driver.quit();
 	}
 
